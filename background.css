@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .background {
+    background: black;
+    background-attachment: scroll;
+    background-image: url('assets/background.gif');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(16px);
+    height: 100vh;
+      width: 100%;
+  }
