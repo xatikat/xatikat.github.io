@@ -5,16 +5,26 @@
   }
   
   .background {
-    background: black;
+    background: #111111;
     background-attachment: scroll;
-    background-image: url('assets/background3.jpg');
+    /* background-image: url('assets/background3.jpg'); */
     background-position: middle;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
   }
-  
+
+  canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: block;
+}
+
   .blur {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(16px);
