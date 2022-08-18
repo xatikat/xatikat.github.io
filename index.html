@@ -21,6 +21,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
+<!--music yay-->
+<audio loop autoplay preload="auto" id="bgAudio">
+    <source src="assets/drama.mp3" type="audio/mpeg" />
+</audio>
+<script>
+    var audio = document.getElementById("bgAudio");
+    audio.volume = 0.1;
+</script>
+
 <svg
 			xmlns="http://www.w3.org/2000/svg" version="1.1"
 			xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" display="none" width="0" height="0">
@@ -96,13 +105,6 @@
     </div>
 </div>
 
-<!--music yay-->
-<audio loop autoplay preload="auto" id="bgAudio">
-    <source src="assets/drama.mp3" type="audio/mpeg" />
-</audio>
-<script>
-    var audio = document.getElementById("bgAudio");
-    audio.volume = 0.1;
-</script>
+
 
 </html>
