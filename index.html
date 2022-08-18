@@ -92,9 +92,13 @@
                     </ul>
                     <a href="https://www.last.fm/user/aired555"><img src="https://lastfm-recently-played.vercel.app/api?user=aired555" height="auto" width="350px"/></a>
  
-                    <audio loop autoplay volume="0.1" preload="auto">
+                    <audio loop autoplay preload="auto" id="bgAudio">
                         <source src="https://cdn.discordapp.com/attachments/918526181630955614/1009653503226028102/Bladee_-_Drama.mp3" type="audio/mpeg" />
                     </audio>
+                    <script>
+                        var audio = document.getElementById("bgAudio");
+                        audio.volume = 0.1;
+                    </script>
 
                 </div>
             </div>
